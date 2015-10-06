@@ -1,0 +1,68 @@
+#minesweeper {
+  width: 90%;
+  height: 405px;
+}
+.tile {
+  padding: 5px;
+  font-size: 30px;
+  float: left;
+  color: grey;
+  background-color: grey;
+  border: 5px solid blue;
+  border-style: outset;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+
+.explored {
+  padding: 5px;
+  font-size: 30px;
+  float: left;
+  color: black;
+  background-color: grey;
+  border: 5px solid blue;
+  border-style: inset;
+}
+
+.flagged {
+  padding: 5px;
+  font-size: 30px;
+  float: left;
+  color: darkred;
+  background-color: grey;
+  border: 5px solid blue;
+  border-style: outset;
+}
+
+.bombed {
+  padding: 5px;
+  font-size: 30px;
+  float: left;
+  color: black;
+  background-color: red;
+  border: 5px solid blue;
+  border-style: inset;
+}
+
+.row {
+  display: block;
+  width: 440px;
+  margin: auto;
+}
+
+h1, h4 {
+  width: 280px;
+  margin: auto;
+  text-align: center;
+  padding: 15px;
+  font-style: oblique;
+}
+
+.board {
+  width: 274px;
+  height: 430px;
+  margin: auto;
+}
+
+.model
